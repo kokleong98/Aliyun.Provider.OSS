@@ -1,6 +1,8 @@
 # Aliyun.Provider.OSS
 Aliyun OSS Powershell Core Provider
 
+Provide integrated Aliyun OSS functionality into Powershell navigation module.
+
 ![](https://raw.githubusercontent.com/kokleong98/Aliyun.Provider.OSS/master/win-pwsh-sample.png)
 
 # Quick Start
