@@ -1,7 +1,7 @@
 # Aliyun.Provider.OSS
 Aliyun OSS Powershell Core Provider
 
-[![](https://raw.githubusercontent.com/kokleong98/Aliyun.Provider.OSS/master/win-pwsh-sample.png)]
+![](https://raw.githubusercontent.com/kokleong98/Aliyun.Provider.OSS/master/win-pwsh-sample.png)
 
 # Quick Start
 1. Download install.ps1 to your PC.
