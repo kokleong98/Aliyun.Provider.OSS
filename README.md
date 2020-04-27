@@ -5,6 +5,8 @@ Provide integrated Aliyun OSS functionality into Powershell navigation module.
 
 ![](https://raw.githubusercontent.com/kokleong98/Aliyun.Provider.OSS/master/win-pwsh-sample.png)
 
+![](https://raw.githubusercontent.com/kokleong98/Aliyun.Provider.OSS/master/ubuntu-pwsh-sample.png)
+
 # Quick Start
 1. Download install.ps1 to your PC.
 2. Launch Powershell Core command to in Administrator mode.
