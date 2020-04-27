@@ -9,7 +9,7 @@ Provide integrated Aliyun OSS functionality into Powershell navigation module.
 
 # Quick Start
 1. Download install.ps1 to your PC.
-2. Launch Powershell Core command to in Administrator mode.
+2. Launch Powershell Core command in Administrator mode.
 3. Run the downloaded install.ps1.
 4. Upon installation completion run the following command.
 ```
