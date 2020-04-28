@@ -1,5 +1,5 @@
 # Aliyun.Provider.OSS
-Aliyun OSS Powershell Core Provider
+Aliyun OSS Powershell Core Provider (Unofficial)
 
 Provide integrated Aliyun OSS functionality into Powershell navigation module.
 
