@@ -1,6 +1,6 @@
 ﻿
 $packageName = './test.zip'
-$gitURL = 'https://github.com/kokleong98/Aliyun.Provider.OSS/releases/download/0.1.0/Aliyun.Provider.OSS.v0.1.0.zip'
+$gitURL = 'https://github.com/kokleong98/Aliyun.Provider.OSS/releases/download/0.1.0.1/Aliyun.Provider.OSS.v0.1.0.1.zip'
 $targetPath = ''
 
 if($PSVersionTable.PSEdition -eq 'Desktop')
