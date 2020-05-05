@@ -34,7 +34,7 @@ New-Item -Path 'OSSD:/newfolder/ket.yr' -SourcePath 'c:\test.path'
 Remove-PSDrive OSSD
 ```
 
-# Docker Image alternative
+# Docker Container Image alternative
 ```
 docker pull kokleong98/aliyun.provider.oss:latest
 ```
