@@ -35,6 +35,49 @@ Remove-PSDrive OSSD
 ```
 
 # Docker Container Image alternative
+Pull image command
 ```
-docker pull kokleong98/aliyun.provider.oss:latest
+docker pull kokleong98/aliyun.provider.oss
 ```
+Run container image command
+```
+docker run -it kokleong98/aliyun.provider.oss
+```
+
+# Commands List
+1. Get-ChildItem (Partial support) - List item under 'OSSD' PS Drive.
+```
+Get-ChildItem OSSD:/
+```
+2. cd - Change directory in 'OSSD' PS Drive.
+```
+cd OSSD:/
+```
+3. New-Item - Create an object in OSS
+```
+# Create new item in OSSD drive using local source path
+# -Path <PSDriveName>:<Path> -SourcePath <your local file>
+New-Item -Path 'OSSD:/newfolder/oss.dat' -SourcePath 'c:\oss.dat'
+
+# Create new item in OSSD drive using bytes array
+# -Path <PSDriveName>:<Path> -Blob <your bytes array variable>
+New-Item -Path 'OSSD:/newfolder/oss.dat' -Blob $blob
+```
+4. Set-Item - Update an object in OSS
+```
+# Update item in OSSD drive using local source path
+# -Path <PSDriveName>:<Path> -SourcePath <your local file>
+Set-Item -Path 'OSSD:/newfolder/oss.dat' -SourcePath 'c:\oss.dat'
+```
+5. Get-Item - Get OSS object metadata
+```
+Get-Item -Path 'OSSD:/newfolder/oss.dat'
+```
+5. Get-Content (Partial support) - Download OSS object content
+```
+# Download OSS object content in OSSD drive using local source path
+# -Path <PSDriveName>:<Path> -OutputPath <your local file>
+Get-Content -Path 'OSSD:/newfolder/oss.dat' -OutputPath '/root/oss.dat'
+```
+
+
