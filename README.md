@@ -73,7 +73,7 @@ Set-Item -Path 'OSSD:/newfolder/oss.dat' -SourcePath 'c:\oss.dat'
 ```
 Get-Item -Path 'OSSD:/newfolder/oss.dat'
 ```
-5. Get-Content (Partial support) - Download OSS object content
+6. Get-Content (Partial support) - Download OSS object content
 ```
 # Download OSS object content in OSSD drive using local source path
 # -Path <PSDriveName>:<Path> -OutputPath <your local file>
