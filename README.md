@@ -79,5 +79,10 @@ Get-Item -Path 'OSSD:/newfolder/oss.dat'
 # -Path <PSDriveName>:<Path> -OutputPath <your local file>
 Get-Content -Path 'OSSD:/newfolder/oss.dat' -OutputPath '/root/oss.dat'
 ```
-
+7. Remove-Item - Remove an object in OSS
+```
+# Remove-Item item in OSSD drive using local source path
+# -Path <PSDriveName>:<Path>
+Remove-Item -Path 'OSSD:/newfolder/oss.dat'
+```
 
