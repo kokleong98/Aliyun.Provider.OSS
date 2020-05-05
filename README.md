@@ -28,6 +28,7 @@ New-PSDrive -PSProvider OSS -Root "" -Name OSSD `
 # Create new item in OSSD drive
 # -Path <PSDriveName>:<Path> -SourcePath <your local file>
 New-Item -Path 'OSSD:/newfolder/ket.yr' -SourcePath 'c:\test.path'
+```
 7. Remove PS Drive 'OSSD' once you done.
 ```
 Remove-PSDrive OSSD
