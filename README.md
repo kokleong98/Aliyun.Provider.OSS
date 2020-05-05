@@ -11,21 +11,25 @@ Provide integrated Aliyun OSS functionality into Powershell navigation module.
 1. Download install.ps1 to your PC.
 2. Launch Powershell Core command in Administrator mode.
 3. Run the downloaded install.ps1.
-4. Upon installation completion run the following command.
+4. Upon installation completion run the following command to import the module.
 ```
 Import-Module Aliyun.Provider.OSS
-
-# Create PS Drive 'OSSD'
+```
+5. Create PS Drive named 'OSSD' with the required parameters.
+```
 New-PSDrive -PSProvider OSS -Root "" -Name OSSD `
 -Endpoint <your endpoint> `
 -AccessKeyId <your access key> `
 -AccessKeySecret <your access key secet> `
 -BucketName <your bucket name>
-
+```
+6. Run any supported item commands. 
+```
 # Create new item in OSSD drive
 # -Path <PSDriveName>:<Path> -SourcePath <your local file>
 New-Item -Path 'OSSD:/newfolder/ket.yr' -SourcePath 'c:\test.path'
-
-# Remove PS Drive 'OSSD'
+7. Remove PS Drive 'OSSD' once you done.
+```
 Remove-PSDrive OSSD
 ```
+
