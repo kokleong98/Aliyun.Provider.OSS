@@ -95,7 +95,7 @@ Get-Content -Path 'OSSD:/newfolder/oss.dat' -OutputPath '/root/oss.dat'
 # -Path <PSDriveName>:<Path>
 Remove-Item -Path 'OSSD:/newfolder/oss.dat'
 ```
-8. Copy-Item - Copy an object in OSS
+8. Copy-Item (Partial support) - Copy an object in OSS
 ```
 # Copy item in within OSSD drive 
 # <PSDriveName>:<Path>
