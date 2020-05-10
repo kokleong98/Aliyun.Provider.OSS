@@ -43,6 +43,16 @@ Run container image command
 ```
 docker run -it kokleong98/aliyun.provider.oss
 ```
+Run container image with environment variable
+```
+# Multlple lines docker command
+docker run -it \
+-e Endpoint=<your endpoint> \
+-e AccessKeyId=<your access key> \
+-e AccessKeySecret=<your access key secret> \
+-e BucketName=<your bucket name> \
+kokleong98/aliyun.provider.oss
+```
 
 # Commands List
 1. Get-ChildItem (Partial support) - List item under 'OSSD' PS Drive.
@@ -81,8 +91,16 @@ Get-Content -Path 'OSSD:/newfolder/oss.dat' -OutputPath '/root/oss.dat'
 ```
 7. Remove-Item - Remove an object in OSS
 ```
-# Remove-Item item in OSSD drive using local source path
+# Remove item in OSSD drive using local source path
 # -Path <PSDriveName>:<Path>
 Remove-Item -Path 'OSSD:/newfolder/oss.dat'
 ```
+8. Copy-Item - Copy an object in OSS
+```
+# Copy item in within OSSD drive 
+# <PSDriveName>:<Path>
+Copy-Item 'OSSD:/newfolder/oss.dat' 'OSSD:/newfolder/oss2.dat'
+```
+
+
 
