@@ -51,6 +51,11 @@ docker run -it \
 -e AccessKeyId=<your access key> \
 -e AccessKeySecret=<your access key secret> \
 -e BucketName=<your bucket name> \
+-e Endpoint2=<your endpoint 2> \
+-e AccessKeyId2=<your access key 2> \
+-e AccessKeySecret2=<your access key secret 2> \
+-e BucketName2=<your bucket name 2> \
+
 kokleong98/aliyun.provider.oss
 ```
 
