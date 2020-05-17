@@ -100,7 +100,11 @@ Remove-Item -Path 'OSSD:/newfolder/oss.dat'
 # Copy item in within OSSD drive 
 # <PSDriveName>:<Path>
 Copy-Item 'OSSD:/newfolder/oss.dat' 'OSSD:/newfolder/oss2.dat'
-```
 
+# Copy item in between OSSD drives
+# <PSDriveName>:<Path>
+Copy-Item 'OSSD:/cloud.img' 'OSSD2:/newcloud.img'
+```
+![](https://raw.githubusercontent.com/kokleong98/Aliyun.Provider.OSS/master/docker-copy-cross-endpoint-sample.png)
 
 
