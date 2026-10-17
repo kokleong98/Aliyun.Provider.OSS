@@ -113,3 +113,6 @@ Copy-Item 'OSSD:/cloud.img' 'OSSD2:/newcloud.img'
 ![](https://raw.githubusercontent.com/kokleong98/Aliyun.Provider.OSS/master/docker-copy-cross-endpoint-sample.png)
 
 
+# Want to buy me a coffee?
+[![Buy Me A Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/kokleong98)
+
